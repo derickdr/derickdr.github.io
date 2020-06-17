@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class HomeBanner extends Component {
+class NavigationBar extends Component {
     render() { 
         return (
             <nav class=''>
@@ -18,4 +18,4 @@ class HomeBanner extends Component {
     };
 };
  
-export default HomeBanner;
+export default NavigationBar;
