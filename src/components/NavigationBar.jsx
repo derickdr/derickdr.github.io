@@ -1,21 +1,17 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
-class NavigationBar extends Component {
-    render() { 
-        return (
-            <nav class=''>
-                <div class=''>
-                    <ul class=''>
-                        <li>About</li>
-                        <li>Gaming</li>
-                        <li>Art</li>
-                        <li>Kendama</li>
-                        <li>Projects</li>
-                    </ul>
-                </div>
-            </nav>
-        );
-    };
-};
- 
-export default NavigationBar;
+export default class NavigationBar extends Component {
+
+    constructor(props) {
+    super(props)
+    }
+
+    render() {
+        const element = (<div>Text from Element</div>)
+        return (<div className="comptext">
+        <h3>First Component</h3>
+            {this.props.displaytext}
+            { element }
+        </div>)
+    }
+}
