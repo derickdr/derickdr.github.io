@@ -1,11 +1,9 @@
 import React from 'react';
-import NavigationBar from './components/NavigationBar';
+import HomePage from './components/HomePage';
 
 function App() {
 	return (
-		<div className=''>
-			<NavigationBar />
-		</div>
+			<HomePage />
 	);
 };
 
