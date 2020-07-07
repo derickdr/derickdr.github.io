@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import NavigationBar from './NavigationBar/NavigationBar';
+import NavigationBar from './NavigationBar';
 import HomePageHeader from './HomePageHeader';
 import AboutDerick from './AboutDerick';
 import ContactInformation from './ContactInformation';

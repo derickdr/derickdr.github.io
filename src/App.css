@@ -1,0 +1,21 @@
+/* Navigation Bar */
+
+.navbar {
+    width: auto;
+    padding: 0.5rem 0rem 1rem;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar ul li {
+    border: 0.1rem solid black;
+    padding: 0.25rem 1rem;
+    margin: 0.5rem;
+}
