@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import NavigationBar from './components/NavigationBar';
 
 function App() {
@@ -6,6 +7,13 @@ function App() {
 		<div className=''>
 			<NavigationBar />
 		</div>
+=======
+import HomePage from './components/HomePage';
+
+function App() {
+	return (
+		<HomePage />
+>>>>>>> about-derick
 	);
 };
 
