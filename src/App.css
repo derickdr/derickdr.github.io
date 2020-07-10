@@ -25,14 +25,29 @@
 }
 
 /* Homepage container */
+<<<<<<< HEAD
+=======
+
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+>>>>>>> homepage-header-styles
 
 .home-page-container {
     background-image: url(./images/landing-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    padding: 8rem 10rem 8rem;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* About section */
+
+.about-derick-container {
+    min-height: 100vh;
 }
