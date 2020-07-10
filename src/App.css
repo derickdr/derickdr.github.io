@@ -20,9 +20,9 @@
     margin: 0.5rem;
 }
 
-/* Homepage header section */
+/* Homepage container */
 
-.homepage-header {
+.home-page-container {
     background-image: url(./images/landing-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
